@@ -32,7 +32,7 @@ console.log(a);
 2. Khác nhau giữa Array và [] trong tạo array:
    - Có 2 cách khởi tạo array, cách thông thường là sử dụng dấu [], cách còn lại là sử dụng từ khóa new Array();
    - Cách thông thường sẽ rõ ràng, dễ đọc dễ hiểu và khả năng thực thi nhanh hơn cách sử dụng từ khóa new Array().
-   - Tuy nhiên cách thứ 2 sẽ có thêm một số tùy chọn. new Array(params) sẽ có thêm 1 số lựa chọn về tham số. Ta có thể định nghĩa trước được dài của array bằng cách
+   - Tuy nhiên cách thứ 2 sẽ có thêm một số tùy chọn. new Array(params) sẽ có thêm 1 số lựa chọn về tham số. Ta có thể định nghĩa trước được độ dài của array bằng cách
      truyền độ dài vào params. Trường hợp này được sử dụng khi chúng ta muốn tạo ra một array trống, lớn với độ dài được xác định từ trước;
    - Ví dụ:  
       var x = new Array(5); độ dài của array x sẽ là 5;
